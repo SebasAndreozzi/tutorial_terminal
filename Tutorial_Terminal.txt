@@ -16,8 +16,9 @@ RR = repositorio remoto (remote repository)
 "code ." = abre Vsc en la carpeta en la que está
 "code 'ruta a la carpeta'" = abre vsc en esa carpeta
 "git commit" = |AS| saca una foto. Recuerda el estado del codigo para no perderlo. Se guarda en el repo local
-"git add 'nombre archivo'" = |AT| agrega archivos al AS
-"git mv 'nombre archivo'" = |AT| mueve archivos al AS
+"git add 'ruta archivo'" = |AT| agrega archivos al AS
+"git mv 'ruta archivo'" = |AT| mueve archivos al AS
+"git rm 'ruta archivo'"
 "git push" =
 "git push" =
 "git pull" =
