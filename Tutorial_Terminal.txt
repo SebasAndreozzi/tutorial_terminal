@@ -1,0 +1,24 @@
+vsc = visual studio code
+repo = repositorio
+AS = area de seguimiento (staging area)
+AT = area de trabajo (working area)
+RL = repositorio local (local repository)
+RR = repositorio remoto (remote repository)
+
+"cd" = change directory
+"cd 'nombre carpeta'" = abre la carpeta
+"cd .." = vuelve atrás
+"cd ../.." = vuelve 2 atrás
+"git" = "git -- help" muestra algunas de las funciones de git
+"git init" = crea repo = crea carpeta ".git" => repo -> para deshacer repo borrar esta carpeta
+	-> "(master)" nombre de la rama del repo -> si no lo dice no voy a poder hacer ada con git
+"git status" = vemos info del repo 
+"code ." = abre Vsc en la carpeta en la que está
+"code 'ruta a la carpeta'" = abre vsc en esa carpeta
+"git commit" = |AS| saca una foto. Recuerda el estado del codigo para no perderlo. Se guarda en el repo local
+"git add 'nombre archivo'" = |AT| agrega archivos al AS
+"git mv 'nombre archivo'" = |AT| mueve archivos al AS
+"git push" =
+"git push" =
+"git pull" =
+"git clone" = 
