@@ -22,4 +22,4 @@ RR = repositorio remoto (remote repository)
 "git push" =
 "git push" =
 "git pull" =
-"git clone" = ffsfsf
+"git clone" =
