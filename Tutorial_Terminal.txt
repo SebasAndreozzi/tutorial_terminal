@@ -19,7 +19,7 @@ RR = repositorio remoto (remote repository)
 "git add 'ruta archivo'" = |AT| agrega archivos al AS
 "git mv 'ruta archivo'" = |AT| mueve archivos al AS
 "git rm 'ruta archivo'"
-"git push" =
+"git push" = pos del RL al RR
 "git push" =
 "git pull" =
 "git clone" =
