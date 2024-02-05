@@ -5,21 +5,38 @@ AT = area de trabajo (working area)
 RL = repositorio local (local repository)
 RR = repositorio remoto (remote repository)
 
+
+
 "cd" = change directory
+
 "cd 'nombre carpeta'" = abre la carpeta
+
 "cd .." = vuelve atrás
+
 "cd ../.." = vuelve 2 atrás
+
 "git" = "git -- help" muestra algunas de las funciones de git
+
 "git init" = crea repo = crea carpeta ".git" => repo -> para deshacer repo borrar esta carpeta
 	-> "(master)" nombre de la rama del repo -> si no lo dice no voy a poder hacer ada con git
+
 "git status" = vemos info del repo 
+
 "code ." = abre Vsc en la carpeta en la que está
+
 "code 'ruta a la carpeta'" = abre vsc en esa carpeta
+
 "git commit" = |AS| saca una foto. Recuerda el estado del codigo para no perderlo. Se guarda en el repo local
+
 "git add 'ruta archivo'" = |AT| agrega archivos al AS
+
 "git mv 'ruta archivo'" = |AT| mueve archivos al AS
-"git rm 'ruta archivo'"
-"git push" = pos del RL al RR
-"git push" =
-"git pull" =
-"git clone" =
+"git rm 'ruta archivo'" = |AS| lo saca del |AS|
+
+"git remote add origin 'link del repositorio de github'" = asocia los archivos add a este repositorio para los commit
+
+"git push 'link' 'rama'" = pasa del RL al RR (lo sube al github)
+
+"git pull 'link repo' 'rama' " = trae de RR a AT el commit especifico
+
+"git clone" = trae de RR a AT todo e repo
